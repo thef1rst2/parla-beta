@@ -5,7 +5,19 @@ conversations with a friendly tutor who corrects you as you go.
 
 Thanks for testing it! Here's how to get it running.
 
-## Install (1 minute)
+## Easiest: on your phone or in your browser (30 seconds)
+
+Open the **invite link** you were sent, or scan the QR code on your card with your phone's
+camera. Parla opens already signed in, with the full course and the tutor. Nothing to install.
+
+- **iPhone:** in Safari, tap **Share**, then **Add to Home Screen**. Parla then opens like an
+  app, full screen, and can remind you to practise.
+- **Android, or Chrome on a computer:** tap **Install** when Parla offers it.
+- Allow the microphone when asked. Headphones help in a noisy room.
+
+Your progress is kept on that phone or in that browser.
+
+## The Mac app (1 minute)
 
 You need a Mac with **macOS 14 (Sonoma) or newer**.
 
@@ -28,23 +40,20 @@ That's it. Parla tells you when there's an update and installs it with one click
    go to **System Settings → Privacy & Security**, scroll down to *"Parla was blocked…"*,
    click **Open Anyway** and confirm. You only do this once.
 
-### No Mac? Use it in your browser
-
-Open **[parla-web.pages.dev](https://parla-web.pages.dev)** in Chrome, Edge or Safari (on a
-computer, or a phone with headphones) and paste the same beta key. It has the same course and
-conversations; your progress there is kept in that browser.
-
 ## Good to know
 
 - **Microphone.** Parla asks to use your microphone and speech recognition; that's how you
   talk to your tutor. Somewhere quiet works best: background noise and TV can confuse it.
   macOS may ask again after an update (Parla isn't from the App Store yet). Just click Allow.
 - **Your key is personal.** It gives you a daily amount of conversation time. Please don't share it.
+- **"You're in line".** During the beta only a few people can talk with the tutor at the same
+  moment. If it's busy, Parla holds your place and connects you as soon as someone finishes,
+  usually within a minute or two. Waiting doesn't use your minutes, and lessons never wait.
 - **Privacy.** Conversations with the tutor are processed by **Google Gemini**. During the
   beta Parla uses Gemini's free plan, on which **Google may use what's sent to improve its
   products**. Don't say anything you wouldn't want a stranger to hear. Lessons (everything
-  except talking with the tutor) run entirely on your Mac.
-- **Your progress** stays on your Mac (in `~/Library/Application Support/Parla`).
+  except talking with the tutor) run entirely on your device.
+- **Your progress** stays on your device (on the Mac, in `~/Library/Application Support/Parla`).
 - **Something went wrong?** Tell me what happened. If you can, also send the file
   `~/Library/Logs/Parla/parla.log`. It lists what the app did (never what you said).
 
