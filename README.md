@@ -28,6 +28,12 @@ That's it. Parla tells you when there's an update and installs it with one click
    go to **System Settings → Privacy & Security**, scroll down to *"Parla was blocked…"*,
    click **Open Anyway** and confirm. You only do this once.
 
+### No Mac? Use it in your browser
+
+Open **[parla-web.pages.dev](https://parla-web.pages.dev)** in Chrome, Edge or Safari (on a
+computer, or a phone with headphones) and paste the same beta key. It has the same course and
+conversations; your progress there is kept in that browser.
+
 ## Good to know
 
 - **Microphone.** Parla asks to use your microphone and speech recognition; that's how you
