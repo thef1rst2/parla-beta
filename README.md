@@ -50,10 +50,14 @@ That's it. Parla tells you when there's an update and installs it with one click
   moment. If it's busy, Parla holds your place and connects you as soon as someone finishes,
   usually within a minute or two. Waiting doesn't use your minutes, and lessons never wait.
 - **Privacy.** Conversations with the tutor are processed by **Google Gemini**. During the
-  beta Parla uses Gemini's free plan, on which **Google may use what's sent to improve its
-  products**. Don't say anything you wouldn't want a stranger to hear. Lessons (everything
-  except talking with the tutor) run entirely on your device.
-- **Your progress** stays on your device (on the Mac, in `~/Library/Application Support/Parla`).
+  beta Parla uses free plans, on which **Google may use what's sent to improve its
+  products**. Don't say anything you wouldn't want a stranger to hear. In lessons, what you
+  say out loud is written down by **Groq** (Whisper) so Parla can check it, and answers in your
+  own words are checked by Gemini. Nothing you say is kept by Parla.
+- **Your progress** (lessons done, words, streak, settings) is saved online under your access
+  code, so a new phone or browser picks up where you left off, and your teacher can see how
+  you're doing. Your conversations and your "Then and now" voice recordings stay on your device
+  (on the Mac, in `~/Library/Application Support/Parla`).
 - **Something went wrong?** Tell me what happened. If you can, also send the file
   `~/Library/Logs/Parla/parla.log`. It lists what the app did (never what you said).
 
